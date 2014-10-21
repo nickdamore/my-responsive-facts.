@@ -13,6 +13,18 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
+    <!-- CSS media query on a link element -->
+<link rel="stylesheet" media="(max-width: 800px)" href="main.ccs" />
+
+<!-- CSS media query within a stylesheet -->
+<style>
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
+</style>
+    
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
